@@ -1,8 +1,12 @@
 from setuptools import setup
 
 setup(
-    name="my_package",
-    version="0.1",
-    description="A cool test package",
-    packages=["test_module", "additional_module"]
+    name='my-package',
+    version='0.0.1',
+    description='My package from github repo',
+    url='git@github.com:TotalDwarf03/python-package-test.git',
+    author='Kieran Pritchard',
+    license='unlicense',
+    packages=['test-module', 'addition-module'],
+    zip_safe=False
 )
